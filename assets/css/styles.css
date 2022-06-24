@@ -938,6 +938,103 @@ html {
     font-weight: 700;
 }
 
+/* SLIDER */
+.slider {
+    margin-top: 145px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 360px;
+    position: relative;
+}
+
+.slider.slider1 {
+    background-image: url(https://bizweb.dktcdn.net/100/414/728/collections/web3.png?v=1651742464250);
+}
+
+.slider.slider2 {
+    background-image: url(https://bizweb.dktcdn.net/100/414/728/collections/websitev2.jpg?v=1652436631597);
+}
+
+.slider.slider3 {
+    background-image: url(https://bizweb.dktcdn.net/100/414/728/collections/black-friday-banner-web-2-edccd00f-69ee-4d70-85d2-09acde391dd4.jpg?v=1639026823803)
+}
+
+.slider.slider4 {
+    background-image: url(https://bizweb.dktcdn.net/100/414/728/collections/black-friday-banner-web-2-edccd00f-69ee-4d70-85d2-09acde391dd4.jpg?v=1639026823803)
+}
+
+.slider.slider5 {
+    background-image: url(https://bizweb.dktcdn.net/100/414/728/collections/black-friday-banner-web-2-edccd00f-69ee-4d70-85d2-09acde391dd4.jpg?v=1639026823803)
+}
+
+.slider__title {
+    position: absolute;
+    top: 50%;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: 'SVN-Gotham', sans-serif !important;
+    color: #fff;
+    font-size: 2.6rem;
+}
+
+/* SORT */
+
+.sort {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    font-size: 1.4rem;
+    font-family: 'SVN-Gotham', sans-serif !important;
+}
+
+.sort__list {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin-bottom: 5px;
+    padding-left: 0;
+}
+
+.sort__item {
+    margin-top: 3px;
+    padding: 0 8px;
+    display: flex;
+    align-items: center;
+    line-height: 26px;
+    position: relative;
+    user-select: none;
+    cursor: pointer;
+}
+
+.sort__item i {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: 1px solid #ddd;
+    display: block;
+    margin-right: 4px;
+}
+
+.sort__item i::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 9px;
+    left: 12px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+}
+
+.sort__item:hover i {
+    border: 1px solid #dc4e3f;
+}
+
+.sort__item:hover i::before {
+    background-color: #dc4e3f; 
+}
 
 
 
